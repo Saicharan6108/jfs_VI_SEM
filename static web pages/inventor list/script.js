@@ -1,6 +1,6 @@
 function showInventor() {
     const inventor = document.getElementById("inventorList").value;
-
+    const img = document.getElementById("inventorImage");
     const data = {
         gosling: {
             img: "images/gosling.jpg",
@@ -52,10 +52,18 @@ function showInventor() {
         
         document.getElementById("inventorImage").src = data[inventor].img;
         document.getElementById("infoBox").innerText = data[inventor].info;
-        if (value.includes("gosling"))
+        
+        
+    }
+    
+    if (inventor=="gosling")
         {
             img.classList.remove("circle-image");
             img.classList.add("square-image");
         }
-    }
+        else{
+            img.classList.remove("square-image");
+            img.classList.add("circle-image");
+        }
+    
 }

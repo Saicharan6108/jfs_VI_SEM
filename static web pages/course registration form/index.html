@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 id="heading">Course Registration Form</h2>
+        <form id="regForm">
+
+            <label for="sname"><h2><b>Student Name :</b></h2></label>
+            <input type="text" class="name" id="name" name="name">
+
+            <h3>Select Subjects:</h3>
+
+            <div class="subject-list">
+
+                
+                <input type="checkbox" name="ds" class="subject" id="ds" value="1000">
+                <label for="ds">Data Structures ($1000)</label>
+
+                <br>
+
+                <input type="checkbox" name="os" class="subject" id="os" value="1200">
+                <label for="os">Operating Systems ($1200)</label>
+
+                <br>
+
+                <input type="checkbox" name="dbms" class="subject" id="dbms" value="1500">
+                <label for="dbms">Database Management System ($1500)</label>
+
+                <br>
+
+                <input type="checkbox" name="cn" class="subject" id="cn" value="1800">
+                <label for="cn">Computer Networks ($1800)</label>
+                
+                <br>
+
+                <input type="checkbox" name="jp" class="subject" id="jp" value="2000">
+                <label for="jp">Java Programming ($2000)</label>
+                
+                <br>
+
+                <input type="checkbox" name="jfs" class="subject" id="jfs" value="5000">
+                <label for="jfs">Java Full Stack ($5000)</label>
+
+                <br>
+
+                <input type="checkbox" name="sub" class="subject" id="cp" value="6000">
+                <label for="cp">CP ($6000)</label>
+
+            </div>
+            
+            <div class="total-box">
+                Total Amount:
+                <span id="total">$0</span>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+            
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

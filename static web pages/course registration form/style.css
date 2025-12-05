@@ -1,0 +1,26 @@
+
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(121, 222, 84);
+}
+
+#heading{
+    text-align:center;
+}
+
+.container
+{
+    
+
+    max-width:450px;
+    min-width: 400px;
+    width:60vw;
+    height: 70vh;
+    background-color: azure;
+
+
+}

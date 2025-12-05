@@ -20,14 +20,14 @@ h1 {
     object-fit: cover;
     border: 5px solid blue;
     margin-right: 30px;
-    transition: 0.5s;
     padding: 5px;
-    animation: spin 2s linear infinite;
+    
 }
 
 .circle-image:hover{
     /*transform: scale(1.1);*/
     box-shadow: 0 0 30px 10px rgb(11, 21, 165);
+    animation: spin 2s linear infinite;
 }
 
 .square-image {
