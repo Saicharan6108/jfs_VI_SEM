@@ -30,7 +30,6 @@ document.getElementById("regForm").addEventListener("submit", function(e){
             // Get subject name from the label text
             let subjectName = sub.parentElement.innerText.trim();
             selectedSubjects.push(subjectName);
-
             totalFee += parseInt(sub.value);
         }
     });
